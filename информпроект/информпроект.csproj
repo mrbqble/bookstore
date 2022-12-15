@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F546FF71-D000-4499-BDF3-443A82C96658}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>информпроект</RootNamespace>
+    <AssemblyName>информпроект</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="All.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="All.Designer.cs">
+      <DependentUpon>All.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cap.Designer.cs">
+      <DependentUpon>Cap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database8DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database8DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database9DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database9DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Ffa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ffa.Designer.cs">
+      <DependentUpon>Ffa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gh.Designer.cs">
+      <DependentUpon>Gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gm.Designer.cs">
+      <DependentUpon>Gm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hibi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hibi.Designer.cs">
+      <DependentUpon>Hibi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hss.Designer.cs">
+      <DependentUpon>Hss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ise.Designer.cs">
+      <DependentUpon>Ise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kdv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kdv.Designer.cs">
+      <DependentUpon>Kdv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Korzina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Korzina.Designer.cs">
+      <DependentUpon>Korzina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mam.Designer.cs">
+      <DependentUpon>Mam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mie.Designer.cs">
+      <DependentUpon>Mie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NaL.Designer.cs">
+      <DependentUpon>NaL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pmz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pmz.Designer.cs">
+      <DependentUpon>Pmz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Poisk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Poisk.Designer.cs">
+      <DependentUpon>Poisk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prot.Designer.cs">
+      <DependentUpon>Prot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sha.Designer.cs">
+      <DependentUpon>Sha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tss.Designer.cs">
+      <DependentUpon>Tss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wap.Designer.cs">
+      <DependentUpon>Wap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wg.Designer.cs">
+      <DependentUpon>Wg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Woo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Woo.Designer.cs">
+      <DependentUpon>Woo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ww.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ww.Designer.cs">
+      <DependentUpon>Ww.cs</DependentUpon>
+    </Compile>
+    <Compile Include="регистрацияDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>регистрацияDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="регистрацияDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>регистрацияDataSet1.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="All.resx">
+      <DependentUpon>All.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cap.resx">
+      <DependentUpon>Cap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ffa.resx">
+      <DependentUpon>Ffa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gh.resx">
+      <DependentUpon>Gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gm.resx">
+      <DependentUpon>Gm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hibi.resx">
+      <DependentUpon>Hibi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hss.resx">
+      <DependentUpon>Hss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ise.resx">
+      <DependentUpon>Ise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kdv.resx">
+      <DependentUpon>Kdv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Korzina.resx">
+      <DependentUpon>Korzina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mam.resx">
+      <DependentUpon>Mam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mie.resx">
+      <DependentUpon>Mie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaL.resx">
+      <DependentUpon>NaL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pmz.resx">
+      <DependentUpon>Pmz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Poisk.resx">
+      <DependentUpon>Poisk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Prot.resx">
+      <DependentUpon>Prot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sha.resx">
+      <DependentUpon>Sha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tss.resx">
+      <DependentUpon>Tss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wap.resx">
+      <DependentUpon>Wap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wg.resx">
+      <DependentUpon>Wg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Woo.resx">
+      <DependentUpon>Woo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ww.resx">
+      <DependentUpon>Ww.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Database8DataSet.xsc">
+      <DependentUpon>Database8DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database8DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database8DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database8DataSet.xss">
+      <DependentUpon>Database8DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet.xsc">
+      <DependentUpon>Database9DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database9DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database9DataSet.xss">
+      <DependentUpon>Database9DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="регистрацияDataSet.xsc">
+      <DependentUpon>регистрацияDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="регистрацияDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>регистрацияDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="регистрацияDataSet.xss">
+      <DependentUpon>регистрацияDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="регистрацияDataSet1.xsc">
+      <DependentUpon>регистрацияDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="регистрацияDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>регистрацияDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="регистрацияDataSet1.xss">
+      <DependentUpon>регистрацияDataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\мим.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пин.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\вим.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ночь.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\увэ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пшх.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\нсз.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\кд.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\вм.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\кяс.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\мб.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пмз.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\зм.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\п.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\во.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\цэ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\зм1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\кич.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\кив.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\жкж.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\озм.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
